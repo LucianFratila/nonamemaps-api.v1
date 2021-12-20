@@ -52,10 +52,10 @@ app.use(express.json());
 
 
 //routes
-app.use("/api/v1/obiective", obiectivRouter);
-app.use("/api/v1/categorie", categorieRouter);
-app.use("/api/v1/media", imageRouter);
-app.use("/api/v1/auth", authRouter);
+app.use("/v1/obiective", obiectivRouter);
+app.use("/v1/categorie", categorieRouter);
+app.use("/v1/media", imageRouter);
+app.use("/v1/auth", authRouter);
 
 
 
